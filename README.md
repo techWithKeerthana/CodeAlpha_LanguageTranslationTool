@@ -3,7 +3,7 @@
 ## 📌 Internship Task Overview
 This project is submitted as part of the **CodeAlpha Artificial Intelligence Internship** (Task 1: Language Translation Tool).
 
-CodeAlpha is a software development company offering internship programs across emerging technologies, including AI, providing hands-on project experience, mentorship, and completion certification.
+It is a beginner-friendly Streamlit application that translates text between languages, supports **Auto Detect** for the source language, allows users to **copy translated output**, and includes **text-to-speech playback** for supported languages.
 
 ## 🎯 Task Objective
 Build a Language Translation Tool that allows a user to:
@@ -28,6 +28,9 @@ Build a Language Translation Tool that allows a user to:
 - **Interface:** Streamlit
 - **Optional Utilities:** `gTTS` (text-to-speech), `pyperclip` (copy to clipboard)
 
+## 🔗 Repository
+- GitHub Repository: [CodeAlpha_LanguageTranslationTool](https://github.com/techWithKeerthana/CodeAlpha_LanguageTranslationTool)
+
 ## 📂 Project Structure
 ```
 CodeAlpha_LanguageTranslationTool/
@@ -42,7 +45,7 @@ CodeAlpha_LanguageTranslationTool/
 ## ⚙️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/CodeAlpha_LanguageTranslationTool.git
+   git clone https://github.com/techWithKeerthana/CodeAlpha_LanguageTranslationTool.git
    cd CodeAlpha_LanguageTranslationTool
    ```
 2. Install dependencies:
@@ -62,12 +65,16 @@ CodeAlpha_LanguageTranslationTool/
 - Clear translated output display.
 - **Copy to Clipboard** button for translated text.
 - **Listen** (text-to-speech) button to generate and play translated speech using `gTTS`.
+- **Swap** button to exchange source and target languages quickly.
+- **Clear** button to reset input and output text.
+- Character counters and clearer interface guidance.
 - Basic error handling for:
-  - Empty input text
-  - Same source and target language selection
-  - Unsupported language selections
-  - Translation/network/API failures
-  - Clipboard or text-to-speech runtime issues
+   - Empty input text
+   - Same source and target language selection
+   - Unsupported language selections
+   - Translation or network/API failures
+   - Clipboard runtime issues
+   - Unsupported text-to-speech language cases
 
 ## 🚀 How It Works
 1. User enters text in the input box.
@@ -85,7 +92,7 @@ A short video walkthrough of this project has been posted on LinkedIn, tagging *
 🔗 [LinkedIn Video Link - add your post URL here](https://www.linkedin.com/)
 
 ## 📜 Internship Submission Checklist
-- [ ] Source code uploaded to GitHub as `CodeAlpha_LanguageTranslationTool`
+- [x] Source code uploaded to GitHub as `CodeAlpha_LanguageTranslationTool`
 - [ ] LinkedIn post with video explanation & GitHub link, tagging @CodeAlpha
 - [ ] Task submitted via official Submission Form
 - [ ] Internship status shared on LinkedIn
